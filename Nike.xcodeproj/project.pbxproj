@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197F2A041A05F82B00EC2785 /* OfferTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 197F2A031A05F82B00EC2785 /* OfferTableViewCell.m */; };
+		197F2A071A05FA0200EC2785 /* OfferTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 197F2A061A05FA0200EC2785 /* OfferTableViewData.m */; };
+		197F2A0C1A0640B500EC2785 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 197F2A0B1A0640B500EC2785 /* Default-568h@2x.png */; };
+		198919F81A05C3AA004F5B16 /* NikeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198919F71A05C3AA004F5B16 /* NikeLoginViewController.m */; };
+		198919FC1A05C74A004F5B16 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198919FB1A05C74A004F5B16 /* Accounts.framework */; };
+		198919FE1A05C786004F5B16 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198919FD1A05C786004F5B16 /* Social.framework */; };
+		19891A011A05CEA3004F5B16 /* NikeSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19891A001A05CEA3004F5B16 /* NikeSignupViewController.m */; };
+		90A1BAD61A05F9320008EF72 /* PullableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A1BAD31A05F9320008EF72 /* PullableView.m */; };
+		90A1BAD71A05F9320008EF72 /* StyledPullableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A1BAD51A05F9320008EF72 /* StyledPullableView.m */; };
+		90DC435F1A0654C100A29FA2 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC43541A0654C100A29FA2 /* NSMutableArray+SWUtilityButtons.m */; };
+		90DC43601A0654C100A29FA2 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC43561A0654C100A29FA2 /* SWCellScrollView.m */; };
+		90DC43611A0654C100A29FA2 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC43581A0654C100A29FA2 /* SWLongPressGestureRecognizer.m */; };
+		90DC43621A0654C100A29FA2 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC435A1A0654C100A29FA2 /* SWTableViewCell.m */; };
+		90DC43631A0654C100A29FA2 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC435C1A0654C100A29FA2 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		90DC43641A0654C100A29FA2 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC435E1A0654C100A29FA2 /* SWUtilityButtonView.m */; };
+		90DC43671A06871800A29FA2 /* CartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC43661A06871800A29FA2 /* CartItem.m */; };
+		9EE5E2031A05F3F700C2C414 /* BarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5E2021A05F3F700C2C414 /* BarcodeScannerViewController.m */; };
+		9EE5E20B1A0636C700C2C414 /* left1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5E20A1A0636C700C2C414 /* left1.png */; };
+		9EE5E20D1A06488D00C2C414 /* UPPlatformSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE5E20C1A06488D00C2C414 /* UPPlatformSDK.framework */; };
+		BF788A481A06979D005CA2BA /* Beacon.m in Sources */ = {isa = PBXBuildFile; fileRef = BF788A471A06979D005CA2BA /* Beacon.m */; };
+		BFC6548D1A05B6B6008775F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6548C1A05B6B6008775F1 /* main.m */; };
+		BFC654A71A05B6B6008775F1 /* NikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654A61A05B6B6008775F1 /* NikeTests.m */; };
+		BFC654C11A05B71F008775F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654B11A05B71F008775F1 /* AppDelegate.m */; };
+		BFC654C21A05B71F008775F1 /* NikeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654B31A05B71F008775F1 /* NikeTabBar.m */; };
+		BFC654C31A05B71F008775F1 /* NikeTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654B51A05B71F008775F1 /* NikeTabBarItem.m */; };
+		BFC654C51A05B71F008775F1 /* ParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654B91A05B71F008775F1 /* ParseManager.m */; };
+		BFC654C61A05B71F008775F1 /* PromotionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654BC1A05B71F008775F1 /* PromotionCell.m */; };
+		BFC654C71A05B71F008775F1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654BE1A05B71F008775F1 /* TableViewCell.m */; };
+		BFC654C81A05B71F008775F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC654C01A05B71F008775F1 /* ViewController.m */; };
+		BFC654CB1A05B750008775F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC654C91A05B750008775F1 /* LaunchScreen.xib */; };
+		BFC654CC1A05B750008775F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC654CA1A05B750008775F1 /* Main.storyboard */; };
+		BFC654D11A05B774008775F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC654CD1A05B774008775F1 /* Images.xcassets */; };
+		BFC654D21A05B774008775F1 /* largeTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC654CE1A05B774008775F1 /* largeTransparent.png */; };
+		BFC654D31A05B774008775F1 /* nike-image.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC654CF1A05B774008775F1 /* nike-image.png */; };
+		BFC654D41A05B774008775F1 /* swoosh.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC654D01A05B774008775F1 /* swoosh.png */; };
+		BFC654D61A05B823008775F1 /* NikeFont.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC654D51A05B78A008775F1 /* NikeFont.otf */; };
+		BFC654DB1A05B853008775F1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654D71A05B852008775F1 /* Bolts.framework */; };
+		BFC654DC1A05B853008775F1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654D81A05B853008775F1 /* FacebookSDK.framework */; };
+		BFC654DD1A05B853008775F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654D91A05B853008775F1 /* Parse.framework */; };
+		BFC654DE1A05B853008775F1 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654DA1A05B853008775F1 /* ParseFacebookUtils.framework */; };
+		BFC654E01A05B865008775F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654DF1A05B865008775F1 /* AudioToolbox.framework */; };
+		BFC654E21A05B8A1008775F1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654E11A05B8A1008775F1 /* CFNetwork.framework */; };
+		BFC654E41A05B8AD008775F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654E31A05B8AD008775F1 /* CoreGraphics.framework */; };
+		BFC654E61A05B8B8008775F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654E51A05B8B8008775F1 /* CoreLocation.framework */; };
+		BFC654E81A05B8C7008775F1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654E71A05B8C7008775F1 /* libz.dylib */; };
+		BFC654EA1A05B8D3008775F1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654E91A05B8D3008775F1 /* MobileCoreServices.framework */; };
+		BFC654EC1A05B8DD008775F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654EB1A05B8DD008775F1 /* QuartzCore.framework */; };
+		BFC654EE1A05B8E9008775F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654ED1A05B8E9008775F1 /* Security.framework */; };
+		BFC654F01A05B8F0008775F1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654EF1A05B8F0008775F1 /* StoreKit.framework */; };
+		BFC654F21A05B8F9008775F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC654F11A05B8F9008775F1 /* SystemConfiguration.framework */; };
+		BFC654F51A05B97F008775F1 /* ControlVariables.c in Sources */ = {isa = PBXBuildFile; fileRef = BFC654F31A05B97F008775F1 /* ControlVariables.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC654A11A05B6B6008775F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC6547F1A05B6B6008775F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC654861A05B6B6008775F1;
+			remoteInfo = Nike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		197F2A021A05F82B00EC2785 /* OfferTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferTableViewCell.h; sourceTree = "<group>"; };
+		197F2A031A05F82B00EC2785 /* OfferTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferTableViewCell.m; sourceTree = "<group>"; };
+		197F2A051A05FA0200EC2785 /* OfferTableViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferTableViewData.h; sourceTree = "<group>"; };
+		197F2A061A05FA0200EC2785 /* OfferTableViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferTableViewData.m; sourceTree = "<group>"; };
+		197F2A0B1A0640B500EC2785 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		198919F61A05C3AA004F5B16 /* NikeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NikeLoginViewController.h; sourceTree = "<group>"; };
+		198919F71A05C3AA004F5B16 /* NikeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NikeLoginViewController.m; sourceTree = "<group>"; };
+		198919FB1A05C74A004F5B16 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		198919FD1A05C786004F5B16 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		198919FF1A05CEA3004F5B16 /* NikeSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NikeSignupViewController.h; sourceTree = "<group>"; };
+		19891A001A05CEA3004F5B16 /* NikeSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NikeSignupViewController.m; sourceTree = "<group>"; };
+		90A1BAD21A05F9320008EF72 /* PullableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullableView.h; sourceTree = "<group>"; };
+		90A1BAD31A05F9320008EF72 /* PullableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullableView.m; sourceTree = "<group>"; };
+		90A1BAD41A05F9320008EF72 /* StyledPullableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPullableView.h; sourceTree = "<group>"; };
+		90A1BAD51A05F9320008EF72 /* StyledPullableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPullableView.m; sourceTree = "<group>"; };
+		90DC43531A0654C100A29FA2 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		90DC43541A0654C100A29FA2 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		90DC43551A0654C100A29FA2 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		90DC43561A0654C100A29FA2 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		90DC43571A0654C100A29FA2 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		90DC43581A0654C100A29FA2 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		90DC43591A0654C100A29FA2 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		90DC435A1A0654C100A29FA2 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		90DC435B1A0654C100A29FA2 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		90DC435C1A0654C100A29FA2 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		90DC435D1A0654C100A29FA2 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		90DC435E1A0654C100A29FA2 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		90DC43651A06871800A29FA2 /* CartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartItem.h; sourceTree = "<group>"; };
+		90DC43661A06871800A29FA2 /* CartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartItem.m; sourceTree = "<group>"; };
+		9EE5E2011A05F3F700C2C414 /* BarcodeScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerViewController.h; sourceTree = "<group>"; };
+		9EE5E2021A05F3F700C2C414 /* BarcodeScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeScannerViewController.m; sourceTree = "<group>"; };
+		9EE5E20A1A0636C700C2C414 /* left1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left1.png; sourceTree = "<group>"; };
+		9EE5E20C1A06488D00C2C414 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPPlatformSDK.framework; sourceTree = "<group>"; };
+		BF788A461A06979D005CA2BA /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beacon.h; sourceTree = "<group>"; };
+		BF788A471A06979D005CA2BA /* Beacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beacon.m; sourceTree = "<group>"; };
+		BFC654871A05B6B6008775F1 /* Nike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC6548B1A05B6B6008775F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC6548C1A05B6B6008775F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFC654A01A05B6B6008775F1 /* NikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC654A51A05B6B6008775F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC654A61A05B6B6008775F1 /* NikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NikeTests.m; sourceTree = "<group>"; };
+		BFC654B01A05B71F008775F1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFC654B11A05B71F008775F1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFC654B21A05B71F008775F1 /* NikeTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NikeTabBar.h; sourceTree = "<group>"; };
+		BFC654B31A05B71F008775F1 /* NikeTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NikeTabBar.m; sourceTree = "<group>"; };
+		BFC654B41A05B71F008775F1 /* NikeTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NikeTabBarItem.h; sourceTree = "<group>"; };
+		BFC654B51A05B71F008775F1 /* NikeTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NikeTabBarItem.m; sourceTree = "<group>"; };
+		BFC654B81A05B71F008775F1 /* ParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseManager.h; sourceTree = "<group>"; };
+		BFC654B91A05B71F008775F1 /* ParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseManager.m; sourceTree = "<group>"; };
+		BFC654BA1A05B71F008775F1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFC654BB1A05B71F008775F1 /* PromotionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionCell.h; sourceTree = "<group>"; };
+		BFC654BC1A05B71F008775F1 /* PromotionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionCell.m; sourceTree = "<group>"; };
+		BFC654BD1A05B71F008775F1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BFC654BE1A05B71F008775F1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		BFC654BF1A05B71F008775F1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFC654C01A05B71F008775F1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFC654C91A05B750008775F1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		BFC654CA1A05B750008775F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFC654CD1A05B774008775F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFC654CE1A05B774008775F1 /* largeTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeTransparent.png; sourceTree = "<group>"; };
+		BFC654CF1A05B774008775F1 /* nike-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-image.png"; sourceTree = "<group>"; };
+		BFC654D01A05B774008775F1 /* swoosh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swoosh.png; sourceTree = "<group>"; };
+		BFC654D51A05B78A008775F1 /* NikeFont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NikeFont.otf; sourceTree = "<group>"; };
+		BFC654D71A05B852008775F1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BFC654D81A05B853008775F1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		BFC654D91A05B853008775F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BFC654DA1A05B853008775F1 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		BFC654DF1A05B865008775F1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFC654E11A05B8A1008775F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFC654E31A05B8AD008775F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFC654E51A05B8B8008775F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BFC654E71A05B8C7008775F1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BFC654E91A05B8D3008775F1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFC654EB1A05B8DD008775F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFC654ED1A05B8E9008775F1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFC654EF1A05B8F0008775F1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BFC654F11A05B8F9008775F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFC654F31A05B97F008775F1 /* ControlVariables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ControlVariables.c; sourceTree = "<group>"; };
+		BFC654F41A05B97F008775F1 /* ControlVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlVariables.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC654841A05B6B6008775F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198919FE1A05C786004F5B16 /* Social.framework in Frameworks */,
+				198919FC1A05C74A004F5B16 /* Accounts.framework in Frameworks */,
+				BFC654F21A05B8F9008775F1 /* SystemConfiguration.framework in Frameworks */,
+				BFC654F01A05B8F0008775F1 /* StoreKit.framework in Frameworks */,
+				BFC654EE1A05B8E9008775F1 /* Security.framework in Frameworks */,
+				BFC654EC1A05B8DD008775F1 /* QuartzCore.framework in Frameworks */,
+				BFC654EA1A05B8D3008775F1 /* MobileCoreServices.framework in Frameworks */,
+				BFC654E81A05B8C7008775F1 /* libz.dylib in Frameworks */,
+				BFC654E61A05B8B8008775F1 /* CoreLocation.framework in Frameworks */,
+				BFC654E41A05B8AD008775F1 /* CoreGraphics.framework in Frameworks */,
+				BFC654E21A05B8A1008775F1 /* CFNetwork.framework in Frameworks */,
+				9EE5E20D1A06488D00C2C414 /* UPPlatformSDK.framework in Frameworks */,
+				BFC654E01A05B865008775F1 /* AudioToolbox.framework in Frameworks */,
+				BFC654DB1A05B853008775F1 /* Bolts.framework in Frameworks */,
+				BFC654DD1A05B853008775F1 /* Parse.framework in Frameworks */,
+				BFC654DE1A05B853008775F1 /* ParseFacebookUtils.framework in Frameworks */,
+				BFC654DC1A05B853008775F1 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC6549D1A05B6B6008775F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197F2A011A05F7DB00EC2785 /* NewTable */ = {
+			isa = PBXGroup;
+			children = (
+				197F2A021A05F82B00EC2785 /* OfferTableViewCell.h */,
+				197F2A031A05F82B00EC2785 /* OfferTableViewCell.m */,
+				197F2A051A05FA0200EC2785 /* OfferTableViewData.h */,
+				197F2A061A05FA0200EC2785 /* OfferTableViewData.m */,
+			);
+			name = NewTable;
+			sourceTree = "<group>";
+		};
+		197F2A081A063E8700EC2785 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		198919F51A05C39C004F5B16 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				198919F61A05C3AA004F5B16 /* NikeLoginViewController.h */,
+				198919F71A05C3AA004F5B16 /* NikeLoginViewController.m */,
+				198919FF1A05CEA3004F5B16 /* NikeSignupViewController.h */,
+				19891A001A05CEA3004F5B16 /* NikeSignupViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		198919F91A05C44D004F5B16 /* DoubleTable */ = {
+			isa = PBXGroup;
+			children = (
+				BFC654F31A05B97F008775F1 /* ControlVariables.c */,
+				BFC654F41A05B97F008775F1 /* ControlVariables.h */,
+				BFC654BB1A05B71F008775F1 /* PromotionCell.h */,
+				BFC654BC1A05B71F008775F1 /* PromotionCell.m */,
+				BFC654BD1A05B71F008775F1 /* TableViewCell.h */,
+				BFC654BE1A05B71F008775F1 /* TableViewCell.m */,
+			);
+			name = DoubleTable;
+			sourceTree = "<group>";
+		};
+		198919FA1A05C470004F5B16 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BFC654B21A05B71F008775F1 /* NikeTabBar.h */,
+				BFC654B31A05B71F008775F1 /* NikeTabBar.m */,
+				BFC654B41A05B71F008775F1 /* NikeTabBarItem.h */,
+				BFC654B51A05B71F008775F1 /* NikeTabBarItem.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		90DC43521A0654C100A29FA2 /* SwipeTable */ = {
+			isa = PBXGroup;
+			children = (
+				90DC43531A0654C100A29FA2 /* NSMutableArray+SWUtilityButtons.h */,
+				90DC43541A0654C100A29FA2 /* NSMutableArray+SWUtilityButtons.m */,
+				90DC43551A0654C100A29FA2 /* SWCellScrollView.h */,
+				90DC43561A0654C100A29FA2 /* SWCellScrollView.m */,
+				90DC43571A0654C100A29FA2 /* SWLongPressGestureRecognizer.h */,
+				90DC43581A0654C100A29FA2 /* SWLongPressGestureRecognizer.m */,
+				90DC43591A0654C100A29FA2 /* SWTableViewCell.h */,
+				90DC435A1A0654C100A29FA2 /* SWTableViewCell.m */,
+				90DC435B1A0654C100A29FA2 /* SWUtilityButtonTapGestureRecognizer.h */,
+				90DC435C1A0654C100A29FA2 /* SWUtilityButtonTapGestureRecognizer.m */,
+				90DC435D1A0654C100A29FA2 /* SWUtilityButtonView.h */,
+				90DC435E1A0654C100A29FA2 /* SWUtilityButtonView.m */,
+			);
+			name = SwipeTable;
+			path = PodFiles;
+			sourceTree = "<group>";
+		};
+		BFC6547E1A05B6B6008775F1 = {
+			isa = PBXGroup;
+			children = (
+				197F2A081A063E8700EC2785 /* Launch */,
+				BFC654E71A05B8C7008775F1 /* libz.dylib */,
+				9EE5E20C1A06488D00C2C414 /* UPPlatformSDK.framework */,
+				197F2A0B1A0640B500EC2785 /* Default-568h@2x.png */,
+				9EE5E20A1A0636C700C2C414 /* left1.png */,
+				BFC654CD1A05B774008775F1 /* Images.xcassets */,
+				BFC654CE1A05B774008775F1 /* largeTransparent.png */,
+				BFC654CF1A05B774008775F1 /* nike-image.png */,
+				BFC654D51A05B78A008775F1 /* NikeFont.otf */,
+				BFC654D01A05B774008775F1 /* swoosh.png */,
+				BFC654891A05B6B6008775F1 /* Nike */,
+				BFC654A31A05B6B6008775F1 /* NikeTests */,
+				BFC654881A05B6B6008775F1 /* Products */,
+				198919FB1A05C74A004F5B16 /* Accounts.framework */,
+				198919FD1A05C786004F5B16 /* Social.framework */,
+				BFC654E51A05B8B8008775F1 /* CoreLocation.framework */,
+				BFC654E31A05B8AD008775F1 /* CoreGraphics.framework */,
+				BFC654E11A05B8A1008775F1 /* CFNetwork.framework */,
+				BFC654F11A05B8F9008775F1 /* SystemConfiguration.framework */,
+				BFC654EF1A05B8F0008775F1 /* StoreKit.framework */,
+				BFC654ED1A05B8E9008775F1 /* Security.framework */,
+				BFC654EB1A05B8DD008775F1 /* QuartzCore.framework */,
+				BFC654E91A05B8D3008775F1 /* MobileCoreServices.framework */,
+				BFC654DF1A05B865008775F1 /* AudioToolbox.framework */,
+				BFC654D71A05B852008775F1 /* Bolts.framework */,
+				BFC654D81A05B853008775F1 /* FacebookSDK.framework */,
+				BFC654D91A05B853008775F1 /* Parse.framework */,
+				BFC654DA1A05B853008775F1 /* ParseFacebookUtils.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC654881A05B6B6008775F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC654871A05B6B6008775F1 /* Nike.app */,
+				BFC654A01A05B6B6008775F1 /* NikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC654891A05B6B6008775F1 /* Nike */ = {
+			isa = PBXGroup;
+			children = (
+				90DC43521A0654C100A29FA2 /* SwipeTable */,
+				198919FA1A05C470004F5B16 /* TabBar */,
+				198919F91A05C44D004F5B16 /* DoubleTable */,
+				197F2A011A05F7DB00EC2785 /* NewTable */,
+				198919F51A05C39C004F5B16 /* Login */,
+				BFC654C91A05B750008775F1 /* LaunchScreen.xib */,
+				BFC654CA1A05B750008775F1 /* Main.storyboard */,
+				90A1BAD21A05F9320008EF72 /* PullableView.h */,
+				90A1BAD31A05F9320008EF72 /* PullableView.m */,
+				90A1BAD41A05F9320008EF72 /* StyledPullableView.h */,
+				90A1BAD51A05F9320008EF72 /* StyledPullableView.m */,
+				9EE5E2011A05F3F700C2C414 /* BarcodeScannerViewController.h */,
+				9EE5E2021A05F3F700C2C414 /* BarcodeScannerViewController.m */,
+				BFC654B01A05B71F008775F1 /* AppDelegate.h */,
+				BFC654B11A05B71F008775F1 /* AppDelegate.m */,
+				BFC654B81A05B71F008775F1 /* ParseManager.h */,
+				BFC654B91A05B71F008775F1 /* ParseManager.m */,
+				BFC654BA1A05B71F008775F1 /* PrefixHeader.pch */,
+				BFC654BF1A05B71F008775F1 /* ViewController.h */,
+				BFC654C01A05B71F008775F1 /* ViewController.m */,
+				90DC43651A06871800A29FA2 /* CartItem.h */,
+				90DC43661A06871800A29FA2 /* CartItem.m */,
+				BFC6548A1A05B6B6008775F1 /* Supporting Files */,
+				BF788A461A06979D005CA2BA /* Beacon.h */,
+				BF788A471A06979D005CA2BA /* Beacon.m */,
+			);
+			path = Nike;
+			sourceTree = "<group>";
+		};
+		BFC6548A1A05B6B6008775F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6548B1A05B6B6008775F1 /* Info.plist */,
+				BFC6548C1A05B6B6008775F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFC654A31A05B6B6008775F1 /* NikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC654A61A05B6B6008775F1 /* NikeTests.m */,
+				BFC654A41A05B6B6008775F1 /* Supporting Files */,
+			);
+			path = NikeTests;
+			sourceTree = "<group>";
+		};
+		BFC654A41A05B6B6008775F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC654A51A05B6B6008775F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC654861A05B6B6008775F1 /* Nike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC654AA1A05B6B6008775F1 /* Build configuration list for PBXNativeTarget "Nike" */;
+			buildPhases = (
+				BFC654831A05B6B6008775F1 /* Sources */,
+				BFC654841A05B6B6008775F1 /* Frameworks */,
+				BFC654851A05B6B6008775F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nike;
+			productName = Nike;
+			productReference = BFC654871A05B6B6008775F1 /* Nike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC6549F1A05B6B6008775F1 /* NikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC654AD1A05B6B6008775F1 /* Build configuration list for PBXNativeTarget "NikeTests" */;
+			buildPhases = (
+				BFC6549C1A05B6B6008775F1 /* Sources */,
+				BFC6549D1A05B6B6008775F1 /* Frameworks */,
+				BFC6549E1A05B6B6008775F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC654A21A05B6B6008775F1 /* PBXTargetDependency */,
+			);
+			name = NikeTests;
+			productName = NikeTests;
+			productReference = BFC654A01A05B6B6008775F1 /* NikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC6547F1A05B6B6008775F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = PennModo;
+				TargetAttributes = {
+					BFC654861A05B6B6008775F1 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = Q4N479MPW3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BFC6549F1A05B6B6008775F1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BFC654861A05B6B6008775F1;
+					};
+				};
+			};
+			buildConfigurationList = BFC654821A05B6B6008775F1 /* Build configuration list for PBXProject "Nike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC6547E1A05B6B6008775F1;
+			productRefGroup = BFC654881A05B6B6008775F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC654861A05B6B6008775F1 /* Nike */,
+				BFC6549F1A05B6B6008775F1 /* NikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC654851A05B6B6008775F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE5E20B1A0636C700C2C414 /* left1.png in Resources */,
+				BFC654D41A05B774008775F1 /* swoosh.png in Resources */,
+				197F2A0C1A0640B500EC2785 /* Default-568h@2x.png in Resources */,
+				BFC654D61A05B823008775F1 /* NikeFont.otf in Resources */,
+				BFC654D31A05B774008775F1 /* nike-image.png in Resources */,
+				BFC654D21A05B774008775F1 /* largeTransparent.png in Resources */,
+				BFC654D11A05B774008775F1 /* Images.xcassets in Resources */,
+				BFC654CB1A05B750008775F1 /* LaunchScreen.xib in Resources */,
+				BFC654CC1A05B750008775F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC6549E1A05B6B6008775F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC654831A05B6B6008775F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC654C81A05B71F008775F1 /* ViewController.m in Sources */,
+				90DC43601A0654C100A29FA2 /* SWCellScrollView.m in Sources */,
+				90DC43611A0654C100A29FA2 /* SWLongPressGestureRecognizer.m in Sources */,
+				BF788A481A06979D005CA2BA /* Beacon.m in Sources */,
+				BFC654F51A05B97F008775F1 /* ControlVariables.c in Sources */,
+				9EE5E2031A05F3F700C2C414 /* BarcodeScannerViewController.m in Sources */,
+				BFC654C11A05B71F008775F1 /* AppDelegate.m in Sources */,
+				BFC654C31A05B71F008775F1 /* NikeTabBarItem.m in Sources */,
+				90DC43631A0654C100A29FA2 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				90A1BAD61A05F9320008EF72 /* PullableView.m in Sources */,
+				BFC654C61A05B71F008775F1 /* PromotionCell.m in Sources */,
+				90DC435F1A0654C100A29FA2 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				90DC43621A0654C100A29FA2 /* SWTableViewCell.m in Sources */,
+				BFC654C51A05B71F008775F1 /* ParseManager.m in Sources */,
+				198919F81A05C3AA004F5B16 /* NikeLoginViewController.m in Sources */,
+				BFC654C71A05B71F008775F1 /* TableViewCell.m in Sources */,
+				19891A011A05CEA3004F5B16 /* NikeSignupViewController.m in Sources */,
+				90DC43641A0654C100A29FA2 /* SWUtilityButtonView.m in Sources */,
+				197F2A071A05FA0200EC2785 /* OfferTableViewData.m in Sources */,
+				BFC654C21A05B71F008775F1 /* NikeTabBar.m in Sources */,
+				90DC43671A06871800A29FA2 /* CartItem.m in Sources */,
+				90A1BAD71A05F9320008EF72 /* StyledPullableView.m in Sources */,
+				BFC6548D1A05B6B6008775F1 /* main.m in Sources */,
+				197F2A041A05F82B00EC2785 /* OfferTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC6549C1A05B6B6008775F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC654A71A05B6B6008775F1 /* NikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC654A21A05B6B6008775F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC654861A05B6B6008775F1 /* Nike */;
+			targetProxy = BFC654A11A05B6B6008775F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFC654A81A05B6B6008775F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC654A91A05B6B6008775F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC654AB1A05B6B6008775F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Nike/PrefixHeader.pch";
+				INFOPLIST_FILE = Nike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Nike;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BFC654AC1A05B6B6008775F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Nike/PrefixHeader.pch";
+				INFOPLIST_FILE = Nike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Nike;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BFC654AE1A05B6B6008775F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = NikeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nike.app/Nike";
+			};
+			name = Debug;
+		};
+		BFC654AF1A05B6B6008775F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = NikeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nike.app/Nike";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC654821A05B6B6008775F1 /* Build configuration list for PBXProject "Nike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC654A81A05B6B6008775F1 /* Debug */,
+				BFC654A91A05B6B6008775F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC654AA1A05B6B6008775F1 /* Build configuration list for PBXNativeTarget "Nike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC654AB1A05B6B6008775F1 /* Debug */,
+				BFC654AC1A05B6B6008775F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC654AD1A05B6B6008775F1 /* Build configuration list for PBXNativeTarget "NikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC654AE1A05B6B6008775F1 /* Debug */,
+				BFC654AF1A05B6B6008775F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC6547F1A05B6B6008775F1 /* Project object */;
+}
